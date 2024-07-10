@@ -65,13 +65,13 @@ var Autobot = {
         } catch (F) { };
         Autobot['botPremWnd'] = undefined
       };
-      Autobot['botWnd'] = Layout['dialogWindow']['open']('', Autobot['title'] + ' v' + Autobot['version'] + ' - CRACKED', 500, 350, '', false);
+      Autobot['botWnd'] = Layout['dialogWindow']['open']('', 'CRACKED', 500, 350, '', false);
       Autobot['botWnd']['setHeight']([350]);
       Autobot['botWnd']['setPosition'](['center', 'center']);
       var _0x88b7x2 = Autobot['botWnd']['getJQElement']();
       _0x88b7x2['append']($('<div/>', {
         "class": 'menu_wrapper',
-        "style": 'left: 78px; right: 14px'
+        "style": 'top: 8px; right: 42px;'
       })['append']($('<ul/>', {
         "class": 'menu_inner'
       })['prepend']

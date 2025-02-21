@@ -450,7 +450,7 @@ var Autobot = {
   },
 
   checkPremium: function (param) {
-    return $('.advisor_frame.' + param + ' div')['hasClass'](param + '_active')
+    return true
   },
 
   initWindow: function () {

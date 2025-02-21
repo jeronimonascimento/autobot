@@ -119,7 +119,7 @@
 }
 
 .nui_bot_toolbox .bot_menu ul li.disabled span {
-    cursor: default
+    cursor: pointer
 }
 
 .nui_bot_toolbox .bot_menu ul li.disabled:hover {

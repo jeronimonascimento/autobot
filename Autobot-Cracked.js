@@ -87,9 +87,7 @@ var Autobot = {
       if (typeof Autoculture !== 'undefined') {
         _0x88b7x2['find']('.menu_inner li:last-child')['before'](Autobot['addMenuItem']('CULTUREMODULE', 'Culture', 'Autoculture'))
       };
-      if (typeof Autofarm !== 'undefined') {
         _0x88b7x2['find']('.menu_inner li:last-child')['before'](Autobot['addMenuItem']('FARMMODULE', 'Farm', 'Autofarm'))
-      };
       $('#Autobot-AUTHORIZE')['click']()
     }
   },
